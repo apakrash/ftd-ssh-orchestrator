@@ -27,6 +27,7 @@ recv_email = 'apakrashi@cisco.com'
 
 #### To run the script
 
-```python3 ssh-cluster.py &
+```
+python3 ssh-cluster.py &
 ```
 Please note the '&' at the end to make the script run in background.
