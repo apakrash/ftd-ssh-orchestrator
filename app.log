@@ -1,0 +1,876 @@
+2022-05-19 19:18:25,077 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:18:25,077 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:18:25,077 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:18:25,077 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:18:25,077 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:18:26,179 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:18:26,179 - MainThread - ftd_connector.send - DEBUG - Sending data - show interface ip brief
+2022-05-19 19:18:26,180 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 19:18:26,571 - MainThread - ftd_connector.expect - DEBUG - Received data -  interface
+2022-05-19 19:18:26,889 - MainThread - ftd_connector.expect - DEBUG - Received data -  ip
+2022-05-19 19:18:27,252 - MainThread - ftd_connector.expect - DEBUG - Received data -  brief
+2022-05-19 19:18:27,252 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:18:27,553 - MainThread - ftd_connector.expect - DEBUG - Received data - Interface                  IP-Address      OK? Method Status                Protocol
+2022-05-19 19:18:27,553 - MainThread - ftd_connector.expect - DEBUG - Received data - GigabitEthernet0/0         unassigned      YES unset  administratively down up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - GigabitEthernet0/1         unassigned      YES unset  administratively down up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - GigabitEthernet0/2         unassigned      YES unset  administratively down up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - GigabitEthernet0/3         unassigned      YES unset  administratively down up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - GigabitEthernet0/4         unassigned      YES unset  administratively down up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - GigabitEthernet0/5         10.197.241.190  YES CONFIG up                    up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - GigabitEthernet0/6         unassigned      YES unset  administratively down up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - GigabitEthernet0/7         unassigned      YES unset  administratively down up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - Internal-Control0/0        127.0.1.1       YES unset  up                    up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - Internal-Control0/1        unassigned      YES unset  up                    up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - Internal-Data0/0           unassigned      YES unset  down                  up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - Internal-Data0/0           unassigne
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - d      YES unset  up                    up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - Internal-Data0/1           169.254.1.1     YES unset  up                    up  
+2022-05-19 19:18:27,554 - MainThread - ftd_connector.expect - DEBUG - Received data - Internal-Data0/2           unassigned      YES unset  up                    up  
+2022-05-19 19:18:27,555 - MainThread - ftd_connector.expect - DEBUG - Received data - Management0/0              unassigned      YES unset  up                    up  
+2022-05-19 19:18:27,555 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:18:27,566 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:20:38,703 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:20:38,703 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:20:38,703 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:20:38,703 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:20:38,703 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:20:39,805 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:20:39,805 - MainThread - ftd_connector.send - DEBUG - Sending data - cluster exec sh asp drop | i cluster-forward-error
+2022-05-19 19:20:39,807 - MainThread - ftd_connector.expect - DEBUG - Received data - cluste
+2022-05-19 19:20:39,807 - MainThread - ftd_connector.expect - DEBUG - Received data - r
+2022-05-19 19:20:40,141 - MainThread - ftd_connector.expect - DEBUG - Received data -  exec
+2022-05-19 19:20:40,473 - MainThread - ftd_connector.expect - DEBUG - Received data -  sh
+2022-05-19 19:20:40,474 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:20:40,474 - MainThread - ftd_connector.expect - DEBUG - Received data - show shun 
+2022-05-19 19:20:40,474 - MainThread - ftd_connector.expect - DEBUG - Received data - > cluster exec shasp
+2022-05-19 19:21:21,406 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:21:21,407 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:21:21,407 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:21:21,407 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:21:21,407 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:21:22,509 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:21:22,509 - MainThread - ftd_connector.send - DEBUG - Sending data - cluster exec  sh  asp  drop | i  cluster-forward-error
+2022-05-19 19:21:22,510 - MainThread - ftd_connector.expect - DEBUG - Received data - cluster
+2022-05-19 19:21:22,933 - MainThread - ftd_connector.expect - DEBUG - Received data -  exec
+2022-05-19 19:21:23,263 - MainThread - ftd_connector.expect - DEBUG - Received data -  
+2022-05-19 19:21:23,264 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:21:23,264 - MainThread - ftd_connector.expect - DEBUG - Received data - aaa                           aaa-server
+2022-05-19 19:21:23,264 - MainThread - ftd_connector.expect - DEBUG - Received data - activate-tunnel-group-scripts asdm
+2022-05-19 19:21:23,264 - MainThread - ftd_connector.expect - DEBUG - Received data - attribute                     backup
+2022-05-19 19:21:23,264 - MainThread - ftd_connector.expect - DEBUG - Received data - blocks                        capture
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - cd                            change-password
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - clear                         client-update
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - conn                          copy
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - cpu                           crashinfo
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - crypto                        cts
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - debug                         delete
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - dir                           dns
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - downgrade                     dynamic-access-policy-config
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - erase                         event
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - export                        failover
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - fips                          format
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - fsck                          help
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - import                        kill
+2022-05-19 19:21:23,265 - MainThread - ftd_connector.expect - DEBUG - Received data - logging                       logout
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - memory                        mkdir
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - more                          network-service
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - no                            packet-tracer
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - perfmon                       ping
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - pwd                           redundant-interface
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - rename                        restore
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - revert                        rmdir
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - session      
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data -                  show
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - shun                          terminal
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - test                          traceroute
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - undebug                       unit
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - user-alert                    verify
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - vpn-sessiondb                 webvpn-cache
+2022-05-19 19:21:23,266 - MainThread - ftd_connector.expect - DEBUG - Received data - who                           write
+2022-05-19 19:21:23,267 - MainThread - ftd_connector.expect - DEBUG - Received data - > cluster exec sh
+2022-05-19 19:21:23,267 - MainThread - ftd_connector.expect - DEBUG - Received data - show shun 
+2022-05-19 19:21:23,267 - MainThread - ftd_connector.expect - DEBUG - Received data - > cluster exec sh
+2022-05-19 19:21:23,267 - MainThread - ftd_connector.expect - DEBUG - Received data - show shun 
+2022-05-19 19:21:23,267 - MainThread - ftd_connector.expect - DEBUG - Received data - > cluster exec shasp
+2022-05-19 19:22:37,569 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:22:37,570 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:22:37,570 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:22:37,570 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:22:37,570 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:22:38,671 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:22:38,672 - MainThread - ftd_connector.send - DEBUG - Sending data - cluster exec  show  asp  drop | include  cluster-forward-error
+2022-05-19 19:22:38,673 - MainThread - ftd_connector.expect - DEBUG - Received data - cluster
+2022-05-19 19:22:39,034 - MainThread - ftd_connector.expect - DEBUG - Received data -  exec
+2022-05-19 19:22:39,365 - MainThread - ftd_connector.expect - DEBUG - Received data -  
+2022-05-19 19:22:39,366 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:22:39,366 - MainThread - ftd_connector.expect - DEBUG - Received data - aaa                           aaa-server
+2022-05-19 19:22:39,366 - MainThread - ftd_connector.expect - DEBUG - Received data - activate-tunnel-group-scripts asdm
+2022-05-19 19:22:39,366 - MainThread - ftd_connector.expect - DEBUG - Received data - attribute                     backup
+2022-05-19 19:22:39,366 - MainThread - ftd_connector.expect - DEBUG - Received data - blocks                        capture
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - cd                            change-password
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - clear                         client-update
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - conn                          copy
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - cpu                           crashinfo
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - crypto                        cts
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - debug                         delete
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - dir                           dns
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - downgrade                     dynamic-access-policy-config
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - erase                         event
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - export                        failover
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - fips                          format
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - fsck                          help
+2022-05-19 19:22:39,367 - MainThread - ftd_connector.expect - DEBUG - Received data - import                        kill
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - logging                       logout
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - memory                        mkdir
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - more                          network-service
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - no                            packet-tracer
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - perfmon                       ping
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - pwd                           redundant-interface
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - rename                        restore
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - revert                        rmdir
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - session                       show
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - shun                          terminal
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - test                          traceroute
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - undebug                       unit
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - user-alert                    verify
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - vpn-sessiondb                 webvpn-cache
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - who                           write
+2022-05-19 19:22:39,368 - MainThread - ftd_connector.expect - DEBUG - Received data - > cluster exec show
+2022-05-19 19:29:25,023 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:29:25,023 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:29:25,023 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:29:25,023 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:29:25,023 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:29:26,125 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:29:26,125 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 19:29:26,126 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 19:29:26,491 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 19:29:26,845 - MainThread - ftd_connector.expect - DEBUG - Received data -  dr
+2022-05-19 19:29:26,845 - MainThread - ftd_connector.expect - DEBUG - Received data - op
+2022-05-19 19:29:26,845 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7573156665
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238486944
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     91946
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             850134513
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 19:29:27,156 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:29:27,157 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:29:27,157 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:29:27,172 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:30:02,270 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:30:02,270 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:30:02,270 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:30:02,270 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:30:02,271 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:30:03,372 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:30:03,373 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 19:30:03,374 - MainThread - ftd_connector.expect - DEBUG - Received data - sho
+2022-05-19 19:30:03,374 - MainThread - ftd_connector.expect - DEBUG - Received data - w
+2022-05-19 19:30:03,719 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 19:30:04,067 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 19:30:04,067 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:30:04,418 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:30:04,418 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 19:30:04,418 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7574250574
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238486987
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     91967
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             850136276
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:30:04,419 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:30:04,435 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:31:31,807 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:31:31,807 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:31:31,808 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:31:31,808 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:31:31,808 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:31:32,909 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:31:32,910 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 19:31:32,911 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 19:31:33,370 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 19:31:33,658 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 19:31:33,659 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:33,659 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:34,068 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:34,068 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7577094282
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238487113
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92003
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             850138309
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:31:34,069 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:34,081 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:31:47,812 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:31:47,812 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:31:47,812 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:31:47,812 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:31:47,812 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:31:48,914 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:31:48,914 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 19:31:48,915 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 19:31:49,291 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 19:31:49,618 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 19:31:49,618 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:49,618 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:49,927 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:49,927 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 19:31:49,927 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7577518656
+2022-05-19 19:31:49,927 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238487132
+2022-05-19 19:31:49,927 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 19:31:49,927 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 19:31:49,927 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92007
+2022-05-19 19:31:49,927 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             850138472
+2022-05-19 19:31:49,927 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 19:31:49,928 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:49,928 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:31:49,928 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:49,928 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 19:31:49,928 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:49,928 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:31:49,928 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:31:49,942 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:32:25,583 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:32:25,583 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:32:25,584 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:32:25,584 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:32:25,584 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:32:26,685 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:32:26,686 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 19:32:26,687 - MainThread - ftd_connector.expect - DEBUG - Received data - sho
+2022-05-19 19:32:26,688 - MainThread - ftd_connector.expect - DEBUG - Received data - w
+2022-05-19 19:32:27,006 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 19:32:27,329 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 19:32:27,329 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:32:27,329 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:32:27,625 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:32:27,625 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 19:32:27,625 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7578297735
+2022-05-19 19:32:27,625 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238487172
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92045
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             850140276
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:32:27,626 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:32:27,638 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:33:34,910 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:33:34,910 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:33:34,910 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:33:34,910 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:33:34,910 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:33:36,012 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:33:36,012 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 19:33:36,013 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 19:33:36,430 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 19:33:36,813 - MainThread - ftd_connector.expect - DEBUG - Received data -  dro
+2022-05-19 19:33:36,814 - MainThread - ftd_connector.expect - DEBUG - Received data - p
+2022-05-19 19:33:36,814 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:33:37,088 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:33:37,088 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 19:33:37,088 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7579878363
+2022-05-19 19:33:37,088 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238487221
+2022-05-19 19:33:37,088 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 19:33:37,088 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 19:33:37,089 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92056
+2022-05-19 19:33:37,089 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             850142473
+2022-05-19 19:33:37,089 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 19:33:37,089 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:33:37,089 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:33:37,089 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:33:37,089 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 19:33:37,089 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:33:37,090 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:33:37,090 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:33:37,098 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:46:41,205 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:46:41,205 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:46:41,205 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:46:41,206 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:46:41,206 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:46:42,307 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:46:42,308 - MainThread - ftd_connector.send - DEBUG - Sending data - cluster exec  show  asp  drop
+2022-05-19 19:46:42,309 - MainThread - ftd_connector.expect - DEBUG - Received data - cluster
+2022-05-19 19:46:42,701 - MainThread - ftd_connector.expect - DEBUG - Received data -  exec
+2022-05-19 19:46:43,003 - MainThread - ftd_connector.expect - DEBUG - Received data -  
+2022-05-19 19:46:43,004 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:46:43,004 - MainThread - ftd_connector.expect - DEBUG - Received data - aaa                           aaa-server
+2022-05-19 19:46:43,004 - MainThread - ftd_connector.expect - DEBUG - Received data - activate-tunnel-group-scripts asdm
+2022-05-19 19:46:43,004 - MainThread - ftd_connector.expect - DEBUG - Received data - attribute                     backup
+2022-05-19 19:46:43,004 - MainThread - ftd_connector.expect - DEBUG - Received data - blocks                        capture
+2022-05-19 19:46:43,004 - MainThread - ftd_connector.expect - DEBUG - Received data - cd                            change-password
+2022-05-19 19:46:43,004 - MainThread - ftd_connector.expect - DEBUG - Received data - clear                         client-update
+2022-05-19 19:46:43,004 - MainThread - ftd_connector.expect - DEBUG - Received data - conn                          copy
+2022-05-19 19:46:43,004 - MainThread - ftd_connector.expect - DEBUG - Received data - cpu                           crashinfo
+2022-05-19 19:46:43,004 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - crypto                        cts
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - debug                         delete
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - dir                           dns
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - downgrade                     dynamic-access-policy-config
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - erase                         event
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - export                        failover
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - fips                          format
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - fsck                          help
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - import                        kill
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - logging                       logout
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - memory                        mkdir
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - more                          network-service
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - no                            packet-tracer
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - perfmon                       ping
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - pwd                           redundant-interface
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - rename                        restore
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - revert                        rmdir
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - session                       show
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - shun                          terminal
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - test                          traceroute
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - undebug                       unit
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - user-alert                    verify
+2022-05-19 19:46:43,005 - MainThread - ftd_connector.expect - DEBUG - Received data - vpn-sessiondb                 webvpn-cache
+2022-05-19 19:46:43,006 - MainThread - ftd_connector.expect - DEBUG - Received data - who                           write
+2022-05-19 19:46:43,006 - MainThread - ftd_connector.expect - DEBUG - Received data - > cluster exec show
+2022-05-19 19:46:51,564 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:46:51,564 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:46:51,564 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:46:51,565 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:46:51,565 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:46:52,666 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:46:52,667 - MainThread - ftd_connector.send - DEBUG - Sending data - cluster exec  show  asp  drop
+2022-05-19 19:46:52,668 - MainThread - ftd_connector.expect - DEBUG - Received data - cluster
+2022-05-19 19:46:52,979 - MainThread - ftd_connector.expect - DEBUG - Received data -  exec
+2022-05-19 19:46:53,334 - MainThread - ftd_connector.expect - DEBUG - Received data -  
+2022-05-19 19:46:53,335 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - aaa                           aaa-server
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - activate-tunnel-group-scripts asdm
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - attribute                     backup
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - blocks                        capture
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - cd                            change-password
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - clear                         client-update
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - conn                          copy
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - cpu                           crashinfo
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - crypto                        cts
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - debug                         delete
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - dir                           dns
+2022-05-19 19:46:53,336 - MainThread - ftd_connector.expect - DEBUG - Received data - downgrade                     dynamic-access-policy-config
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - erase                         event
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - export                        failover
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - fips                          format
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - fsck                          help
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - import                        kill
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - logging                       logout
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - memory                        mkdir
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - more                          network-service
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - no                            packet-tracer
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - perfmon                       ping
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - pwd                           redundant-interface
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - rename                        restore
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - revert                        rmdir
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - session      
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data -                  show
+2022-05-19 19:46:53,337 - MainThread - ftd_connector.expect - DEBUG - Received data - shun                          terminal
+2022-05-19 19:46:53,338 - MainThread - ftd_connector.expect - DEBUG - Received data - test                          traceroute
+2022-05-19 19:46:53,338 - MainThread - ftd_connector.expect - DEBUG - Received data - undebug                       unit
+2022-05-19 19:46:53,338 - MainThread - ftd_connector.expect - DEBUG - Received data - user-alert                    verify
+2022-05-19 19:46:53,338 - MainThread - ftd_connector.expect - DEBUG - Received data - vpn-sessiondb                 webvpn-cache
+2022-05-19 19:46:53,338 - MainThread - ftd_connector.expect - DEBUG - Received data - who                           write
+2022-05-19 19:46:53,338 - MainThread - ftd_connector.expect - DEBUG - Received data - > cluster exec show
+2022-05-19 19:47:14,625 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:47:14,625 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:47:14,625 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:47:14,625 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:47:14,626 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:47:15,727 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:47:15,728 - MainThread - ftd_connector.send - DEBUG - Sending data - cluster exec show asp drop
+2022-05-19 19:47:15,729 - MainThread - ftd_connector.expect - DEBUG - Received data - cluster
+2022-05-19 19:47:16,055 - MainThread - ftd_connector.expect - DEBUG - Received data -  exec
+2022-05-19 19:47:16,414 - MainThread - ftd_connector.expect - DEBUG - Received data -  show
+2022-05-19 19:47:16,856 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 19:47:17,165 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 19:47:17,166 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:47:17,481 - MainThread - ftd_connector.expect - DEBUG - Received data - Clustering is not configured.
+2022-05-19 19:47:17,481 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:47:17,495 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:47:40,037 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:47:40,037 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:47:40,037 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:47:40,037 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:47:40,037 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:47:41,139 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:47:41,139 - MainThread - ftd_connector.send - DEBUG - Sending data - cluster exec show asp drop | include cluster-forward-error
+2022-05-19 19:47:41,140 - MainThread - ftd_connector.expect - DEBUG - Received data - cluster
+2022-05-19 19:47:41,457 - MainThread - ftd_connector.expect - DEBUG - Received data -  exec
+2022-05-19 19:47:41,751 - MainThread - ftd_connector.expect - DEBUG - Received data -  show
+2022-05-19 19:47:42,054 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 19:47:42,357 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 19:47:42,650 - MainThread - ftd_connector.expect - DEBUG - Received data -  |
+2022-05-19 19:47:42,939 - MainThread - ftd_connector.expect - DEBUG - Received data -  include
+2022-05-19 19:47:43,241 - MainThread - ftd_connector.expect - DEBUG - Received data -  cluster-forward-error
+2022-05-19 19:47:43,242 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:47:43,242 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:47:43,573 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:51:45,090 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:51:45,090 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:51:45,090 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:51:45,090 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:51:45,091 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:51:46,192 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:51:46,193 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 19:51:46,194 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 19:51:46,596 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 19:51:46,931 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 19:51:46,932 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:51:47,225 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:51:47,226 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 19:51:47,226 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7600693720
+2022-05-19 19:51:47,226 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238488276
+2022-05-19 19:51:47,226 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 19:51:47,226 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 19:51:47,226 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92379
+2022-05-19 19:51:47,226 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             857525210
+2022-05-19 19:51:47,226 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 19:51:47,226 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:51:47,226 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:51:47,227 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:51:47,227 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 19:51:47,227 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:51:47,227 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:51:47,227 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:51:47,238 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:54:50,258 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:54:50,259 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:54:50,259 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:54:50,259 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:54:50,259 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:54:51,361 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:54:51,361 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 19:54:51,362 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 19:54:51,690 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 19:54:51,982 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 19:54:51,982 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:54:52,272 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7605840201
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238488456
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92413
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             857529393
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:54:52,273 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 19:54:52,274 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:54:52,274 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:54:52,274 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:54:52,284 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:55:02,295 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:55:02,295 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:55:02,295 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:55:02,295 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:55:02,296 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:55:03,397 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:55:03,398 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 19:55:03,399 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 19:55:03,399 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 19:55:03,713 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 19:55:03,713 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:03,988 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:03,988 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 19:55:03,988 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7606171451
+2022-05-19 19:55:03,988 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238488463
+2022-05-19 19:55:03,988 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 19:55:03,988 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 19:55:03,988 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92414
+2022-05-19 19:55:03,989 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             857530416
+2022-05-19 19:55:03,989 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 19:55:03,989 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:03,989 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:55:03,989 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:03,989 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 19:55:03,989 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:03,989 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:55:03,990 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:03,999 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 19:55:14,009 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 19:55:14,009 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 19:55:14,010 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 19:55:14,010 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:55:14,010 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 19:55:15,111 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 19:55:15,112 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 19:55:15,113 - MainThread - ftd_connector.expect - DEBUG - Received data - show asp
+2022-05-19 19:55:15,433 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 19:55:15,434 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:15,434 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:15,720 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:15,721 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 19:55:15,721 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7606517007
+2022-05-19 19:55:15,721 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238488471
+2022-05-19 19:55:15,721 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 19:55:15,721 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 19:55:15,721 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92414
+2022-05-19 19:55:15,722 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             857530616
+2022-05-19 19:55:15,722 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 19:55:15,722 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:15,722 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:55:15,722 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:15,722 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 19:55:15,722 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:15,722 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 19:55:15,723 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 19:55:15,732 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 20:12:42,949 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:12:42,949 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:12:42,949 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:12:42,949 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:12:42,949 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:12:44,050 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:12:44,051 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 20:12:44,053 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 20:12:44,515 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 20:12:45,001 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 20:12:45,001 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:45,001 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:45,388 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:45,388 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 20:12:45,388 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7629749810
+2022-05-19 20:12:45,388 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238489507
+2022-05-19 20:12:45,388 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 20:12:45,389 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 20:12:45,389 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92618
+2022-05-19 20:12:45,389 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             860640733
+2022-05-19 20:12:45,389 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 20:12:45,389 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:45,389 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:12:45,389 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:45,389 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 20:12:45,389 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:45,389 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:12:45,389 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:45,406 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 20:12:55,416 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:12:55,416 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:12:55,416 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:12:55,416 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:12:55,417 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:12:56,518 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:12:56,519 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 20:12:56,520 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 20:12:56,520 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 20:12:56,835 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 20:12:56,835 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:57,120 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:57,120 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 20:12:57,120 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7629968282
+2022-05-19 20:12:57,120 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238489519
+2022-05-19 20:12:57,120 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 20:12:57,120 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 20:12:57,120 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92623
+2022-05-19 20:12:57,121 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             860640889
+2022-05-19 20:12:57,121 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 20:12:57,121 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:57,121 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:12:57,121 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:57,121 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 20:12:57,121 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:57,121 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:12:57,121 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:12:57,134 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 20:13:39,441 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:13:39,441 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:13:39,441 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:13:39,441 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:13:39,441 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:13:40,543 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:13:40,543 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 20:13:40,544 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 20:13:40,843 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 20:13:41,123 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 20:13:41,123 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:41,438 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:41,438 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 20:13:41,438 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7630459648
+2022-05-19 20:13:41,438 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238489554
+2022-05-19 20:13:41,438 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 20:13:41,438 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 20:13:41,438 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92630
+2022-05-19 20:13:41,438 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             860643747
+2022-05-19 20:13:41,438 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 20:13:41,439 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:41,439 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:13:41,439 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:41,439 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 20:13:41,439 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:41,439 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:13:41,439 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:41,450 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 20:13:51,460 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:13:51,460 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:13:51,460 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:13:51,460 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:13:51,461 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:13:52,562 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:13:52,563 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 20:13:52,564 - MainThread - ftd_connector.expect - DEBUG - Received data - show asp
+2022-05-19 20:13:52,853 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 20:13:52,853 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:53,126 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:53,126 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7630705056
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238489559
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92631
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             860644058
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:53,127 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:13:53,128 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:13:53,138 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 20:14:03,148 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:14:03,148 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:14:03,149 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:14:03,149 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:14:03,149 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:14:04,250 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:14:04,251 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 20:14:04,252 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 20:14:04,252 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 20:14:04,581 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 20:14:04,581 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:04,908 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7630928680
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238489566
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92634
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             860644217
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:14:04,909 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:04,921 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 20:14:14,932 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:14:14,932 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:14:14,932 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:14:14,932 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:14:14,932 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:14:16,034 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:14:16,034 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 20:14:16,035 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 20:14:16,036 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 20:14:16,497 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 20:14:16,497 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7631380907
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238489572
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92636
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             860644825
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 20:14:16,820 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:16,821 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:14:16,821 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:16,832 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 20:14:30,257 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:14:30,258 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:14:30,258 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:14:30,258 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:14:30,258 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:14:31,359 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:14:31,360 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 20:14:31,361 - MainThread - ftd_connector.expect - DEBUG - Received data - show
+2022-05-19 20:14:31,668 - MainThread - ftd_connector.expect - DEBUG - Received data -  asp
+2022-05-19 20:14:32,001 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 20:14:32,001 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:32,363 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:32,363 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 20:14:32,363 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7631662971
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238489584
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92637
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             860645173
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:14:32,364 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:32,376 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 20:14:42,386 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:14:42,387 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:14:42,387 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:14:42,387 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:14:42,387 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:14:43,489 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:14:43,489 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 20:14:43,490 - MainThread - ftd_connector.expect - DEBUG - Received data - sho
+2022-05-19 20:14:43,491 - MainThread - ftd_connector.expect - DEBUG - Received data - w asp
+2022-05-19 20:14:43,803 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 20:14:43,803 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:44,150 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:44,150 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 20:14:44,150 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7631662971
+2022-05-19 20:14:44,150 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238489596
+2022-05-19 20:14:44,150 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 20:14:44,150 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 20:14:44,151 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92638
+2022-05-19 20:14:44,151 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             860645269
+2022-05-19 20:14:44,151 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 20:14:44,151 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:44,151 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:14:44,151 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:44,151 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 20:14:44,151 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:44,151 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:14:44,151 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:44,166 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 20:14:54,177 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:14:54,177 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:14:54,177 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:14:54,177 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:14:54,177 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:14:55,279 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:14:55,279 - MainThread - ftd_connector.send - DEBUG - Sending data - show asp drop
+2022-05-19 20:14:55,281 - MainThread - ftd_connector.expect - DEBUG - Received data - show asp
+2022-05-19 20:14:55,576 - MainThread - ftd_connector.expect - DEBUG - Received data -  drop
+2022-05-19 20:14:55,577 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:55,577 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:55,867 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:55,867 - MainThread - ftd_connector.expect - DEBUG - Received data - Frame drop:
+2022-05-19 20:14:55,867 - MainThread - ftd_connector.expect - DEBUG - Received data -   Punt rate limit exceeded (punt-rate-limit)                          7631852005
+2022-05-19 20:14:55,867 - MainThread - ftd_connector.expect - DEBUG - Received data -   Flow is denied by configured rule (acl-drop)                        1238489603
+2022-05-19 20:14:55,867 - MainThread - ftd_connector.expect - DEBUG - Received data -   First TCP packet not SYN (tcp-not-syn)                                       7
+2022-05-19 20:14:55,867 - MainThread - ftd_connector.expect - DEBUG - Received data -   TCP RST/FIN out of order (tcp-rstfin-ooo)                                    3
+2022-05-19 20:14:55,868 - MainThread - ftd_connector.expect - DEBUG - Received data -   Slowpath security checks failed (sp-security-failed)                     92638
+2022-05-19 20:14:55,868 - MainThread - ftd_connector.expect - DEBUG - Received data -   FP L2 rule drop (l2_acl)                                             860646000
+2022-05-19 20:14:55,868 - MainThread - ftd_connector.expect - DEBUG - Received data -   Interface is down (interface-down)                                           1
+2022-05-19 20:14:55,868 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:55,868 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:14:55,868 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:55,868 - MainThread - ftd_connector.expect - DEBUG - Received data - Flow drop:
+2022-05-19 20:14:55,868 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:55,868 - MainThread - ftd_connector.expect - DEBUG - Received data - Last clearing: Never
+2022-05-19 20:14:55,868 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:14:55,878 - MainThread - ftd_connector.expect - DEBUG - Received data - > 
+2022-05-19 20:51:41,705 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:51:41,705 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:51:41,705 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:51:41,705 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:51:41,705 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:51:42,807 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:51:42,807 - MainThread - ftd_connector.send - DEBUG - Sending data - cluster exec sh asp drop | i cluster-forward-error
+2022-05-19 20:51:42,808 - MainThread - ftd_connector.expect - DEBUG - Received data - cluster
+2022-05-19 20:51:43,256 - MainThread - ftd_connector.expect - DEBUG - Received data -  exec
+2022-05-19 20:51:43,537 - MainThread - ftd_connector.expect - DEBUG - Received data -  sh
+2022-05-19 20:51:43,538 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:51:43,538 - MainThread - ftd_connector.expect - DEBUG - Received data - show shun 
+2022-05-19 20:51:43,538 - MainThread - ftd_connector.expect - DEBUG - Received data - > cluster exec shasp
+2022-05-19 20:51:53,548 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:51:53,548 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:51:53,549 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:51:53,549 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:51:53,549 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:51:54,650 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:51:54,651 - MainThread - ftd_connector.send - DEBUG - Sending data - cluster exec sh asp drop | i cluster-forward-error
+2022-05-19 20:51:54,652 - MainThread - ftd_connector.expect - DEBUG - Received data - clust
+2022-05-19 20:51:54,652 - MainThread - ftd_connector.expect - DEBUG - Received data - er
+2022-05-19 20:51:54,653 - MainThread - ftd_connector.expect - DEBUG - Received data - exec
+2022-05-19 20:51:54,653 - MainThread - ftd_connector.expect - DEBUG - Received data - sh
+2022-05-19 20:51:54,654 - MainThread - ftd_connector.expect - DEBUG - Received data - asp
+2022-05-19 20:51:54,655 - MainThread - ftd_connector.expect - DEBUG - Received data - drop
+2022-05-19 20:51:54,656 - MainThread - ftd_connector.expect - DEBUG - Received data - |
+2022-05-19 20:51:54,656 - MainThread - ftd_connector.expect - DEBUG - Received data - i
+2022-05-19 20:51:54,657 - MainThread - ftd_connector.expect - DEBUG - Received data - cluster
+2022-05-19 20:51:54,657 - MainThread - ftd_connector.expect - DEBUG - Received data - -forEward-error
+2022-05-19 20:51:54,658 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:51:54,658 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:51:54,658 - MainThread - ftd_connector.expect - DEBUG - Received data - Syntax error: Illegal parameter
+2022-05-19 20:51:54,658 - MainThread - ftd_connector.expect - DEBUG - Received data - > cluster exec shaspdrop|icluster-forward-errorclusterexecshaspdrop|icluster-forward-error
+2022-05-19 20:52:04,669 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:52:04,669 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:52:04,669 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:52:04,669 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:52:04,669 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:52:05,771 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:52:05,771 - MainThread - ftd_connector.send - DEBUG - Sending data - cluster exec sh asp drop | i cluster-forward-error
+2022-05-19 20:52:05,772 - MainThread - ftd_connector.expect - DEBUG - Received data - cluster
+2022-05-19 20:52:05,773 - MainThread - ftd_connector.expect - DEBUG - Received data - exec
+2022-05-19 20:52:05,774 - MainThread - ftd_connector.expect - DEBUG - Received data - sh
+2022-05-19 20:52:05,774 - MainThread - ftd_connector.expect - DEBUG - Received data - asp
+2022-05-19 20:52:05,775 - MainThread - ftd_connector.expect - DEBUG - Received data - drop
+2022-05-19 20:52:05,776 - MainThread - ftd_connector.expect - DEBUG - Received data - |
+2022-05-19 20:52:05,777 - MainThread - ftd_connector.expect - DEBUG - Received data - i
+2022-05-19 20:52:05,777 - MainThread - ftd_connector.expect - DEBUG - Received data - cluster-fo
+2022-05-19 20:52:05,777 - MainThread - ftd_connector.expect - DEBUG - Received data - rwa
+2022-05-19 20:52:05,778 - MainThread - ftd_connector.expect - DEBUG - Received data - rd-err
+2022-05-19 20:52:05,778 - MainThread - ftd_connector.expect - DEBUG - Received data - or
+2022-05-19 20:52:05,778 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:52:05,778 - MainThread - ftd_connector.expect - DEBUG - Received data - 
+2022-05-19 20:52:05,779 - MainThread - ftd_connector.expect - DEBUG - Received data - Syntax error: Illegal parameter
+2022-05-19 20:52:05,779 - MainThread - ftd_connector.expect - DEBUG - Received data - > cluster exec shaspdrop|icluster-forward-errorclusterexecshaspdrop|icluster-forward-errorclusterexecshaspdrop|icluster-forward-error
+2022-05-19 20:52:15,789 - MainThread - ftd_connector.send_command_clish - INFO - Sending command via Clish
+2022-05-19 20:52:15,789 - MainThread - ftd_connector.send_wait_for_prompt - INFO - Sending commnd and will wait for prompt
+2022-05-19 20:52:15,790 - MainThread - ftd_connector.find_prompt - DEBUG - Finding prompt
+2022-05-19 20:52:15,790 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:52:15,790 - MainThread - ftd_connector.send - DEBUG - Sending data - 
+2022-05-19 20:52:16,892 - MainThread - ftd_connector.clear_buffer - DEBUG - Clearing buffer for next command
+2022-05-19 20:52:16,892 - MainThread - ftd_connector.send - DEBUG - Sending data - cluster exec sh asp drop | i cluster-forward-error
+2022-05-19 20:52:16,894 - MainThread - ftd_connector.expect - DEBUG - Received data - cluster
+2022-05-19 20:52:16,894 - MainThread - ftd_connector.expect - DEBUG - Received data - exec
+2022-05-19 20:52:16,895 - MainThread - ftd_connector.expect - DEBUG - Received data - sh
+2022-05-19 20:52:16,895 - MainThread - ftd_connector.expect - DEBUG - Received data - asp
+2022-05-19 20:52:16,896 - MainThread - ftd_connector.expect - DEBUG - Received data - drop
+2022-05-19 20:52:16,897 - MainThread - ftd_connector.expect - DEBUG - Received data - |
+2022-05-19 20:52:16,898 - MainThread - ftd_connector.expect - DEBUG - Received data - i
+2022-05-19 20:52:16,899 - MainThread - ftd_connector.expect - DEBUG - Received data - clustEer-forward-e
+2022-05-19 20:52:16,899 - MainThread - ftd_connector.expect - DEBUG - Received data - rror
+2022-05-19 20:52:16,899 - MainThread - ftd_connector.expect - DEBUG - Received data - Syntax error: Illegal parameter
+2022-05-19 20:52:16,899 - MainThread - ftd_connector.expect - DEBUG - Received data - > cluster exec shaspdrop|icluster-forward-errorclusterexecshaspdrop|icluster-forward-errorclusterexecshaspdrop|icluster-forward-errorclusterexecshaspdrop|icluster-forward-error
