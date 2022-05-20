@@ -9,7 +9,7 @@ def sendMail():
     recv_email = 'apakrash@cisco.com'
     password = 'C!sco123'
     # Authentication
-    s.login(email, password)
+    s.login(sender_email, password)
 
     # message to be sent
     message = "sample mail"
