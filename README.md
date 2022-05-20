@@ -20,10 +20,10 @@ my_device = {
     "password": "C1sco12345"
 }
 ```
-### in file: pythonGmail.py: define the email address of the intended recipient: 
+### in file: pythonGmail.py: define the email address of the intended recipient in the list differenciated by comma: 
 
 ```
-recv_email = 'apakrashi@cisco.com'
+recv_email = ['apakrashi@cisco.com']
 ```
 
 
