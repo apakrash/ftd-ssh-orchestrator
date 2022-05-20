@@ -1,7 +1,7 @@
 This code is based on the repo: https://github.com/Viss/toolkit/blob/master/cisco-ssh.py
 
 # Requirement:
-- Python >= 3.x
+- Python 3.x
 - Paramiko >= 2.4.2
 
 To install paramiko
