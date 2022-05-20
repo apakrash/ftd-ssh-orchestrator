@@ -7,6 +7,8 @@ This code is based on the repo: https://github.com/Viss/toolkit/blob/master/cisc
 To install paramiko
 ```pip install paramiko```
 
+# Download the Zip of the repository and extract it
+https://github.com/apakrash/ftd-cluster-check/archive/refs/heads/main.zip
 
 # Changes needed prior to running the script
 
