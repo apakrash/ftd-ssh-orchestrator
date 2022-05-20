@@ -12,7 +12,7 @@ def sendMail():
     s.login(sender_email, password)
 
     # message to be sent
-    message = "sample mail"
+    message = "FTD threshold exceeded, call TAC"
 
     # sending the mail
     s.sendmail(sender_email, recv_email, message)
