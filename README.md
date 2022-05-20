@@ -10,7 +10,7 @@ To install paramiko
 
 # Changes needed prior to running the script
 
-### in file: ssh-cluster: define the ip address and the credentials:
+### in file: ssh-cluster.py: define the ip address and the credentials:
 ```
 my_device = {
     "ip": "10.0.0.1",
