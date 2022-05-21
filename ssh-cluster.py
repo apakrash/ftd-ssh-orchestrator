@@ -37,7 +37,7 @@ logger.setLevel(logging.DEBUG)
 firstTry = 1
 while(1):
     counter = 0
-    output = device.send_command_clish("cluster exec sh asp drop | i cluster-forward-error")
+    output = device.send_command_clish("cluster exec show asp drop | i cluster-forward-error")
     outputLines = output.splitlines()
     for line in outputLines:
         if 'Cluster member failed to send data packet over CCL (cluster-forward-error)' in line:
