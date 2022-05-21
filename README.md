@@ -34,7 +34,7 @@ python3 ssh-cluster.py &
 ```
 Please note the '&' at the end to make the script run in background.
 
-### Troubeshooting/FAQ.
+# Troubeshooting/FAQ.
 
 1. The script is not doing anything, the code seems stuck
 
@@ -57,6 +57,8 @@ In the same folder there is a log file called app.log, please check that or chec
 ```
 tail -f app.log
 ```
+
+# Still Need Support?
 
 If still a problem persists, please raise an issue in the issues section(without mentioning credentials/ip since this is a public forum): https://github.com/apakrash/ftd-cluster-check/issues
 
