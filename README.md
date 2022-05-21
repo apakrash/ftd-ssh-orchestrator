@@ -33,3 +33,37 @@ recv_email = ['apakrashi@cisco.com']
 python3 ssh-cluster.py &
 ```
 Please note the '&' at the end to make the script run in background.
+
+### Troubeshooting/FAQ.
+
+1. The script is not doing anything, the code seems stuck
+
+make sure that the following is edited in the code for the cluster that you are testing with in ssh-cluster.py
+```
+my_device = {
+"ip": "10.0.0.1",
+"username": "admin",
+"password": "C1sco12345"
+}
+```
+2. Still not working, what else can I check
+
+Try to ssh to the cluster ip using the credentials defined above, see if the clish prompt opens.
+
+3. How to verify the history/result of past attempts of running the code.
+
+In the same folder there is a log file called app.log, please check that or checking the exact output being recorded:
+
+```
+tail -f app.log
+```
+
+If still a problem persists, please raise an issue in the issues section(without mentioning credentials/ip since this is a public forum): https://github.com/apakrash/ftd-cluster-check/issues
+
+
+
+
+
+
+
+
