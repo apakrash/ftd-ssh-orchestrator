@@ -34,7 +34,7 @@ python3 ssh-cluster.py &
 ```
 Please note the '&' at the end to make the script run in background.
 
-# Troubeshooting/FAQ.
+# Troubeshooting/FAQ
 
 1. The script is not doing anything, the code seems stuck
 
