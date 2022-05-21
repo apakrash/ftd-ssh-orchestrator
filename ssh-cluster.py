@@ -13,9 +13,9 @@ from pythonGmail import *
 
 #change the ip address and credentials accordingly
 my_device = {
-    "ip": "10.197.241.117",
+    "ip": "10.105.104.212",
     "username": "admin",
-    "password": "C!sco123"
+    "password": "cisco"
 }
 
 sleeptime = 600 # in seconds
@@ -47,13 +47,16 @@ while(1):
     if firstTry == 1:
         counterLastIteration = counter
         firstTry = 0
+        print('counter = ' + str(counter))
+        print('next iteration of the code to run after 10 min...')
         time.sleep(sleeptime)
-        print(counter)
     else:
         print('counter = ' + str(counter))
         print('counterLastIteration = ' + str(counterLastIteration))
+        print('next iteration of the code to run after 10 min...')
         if counter - counterLastIteration > 10:
-            print('counter more than 10, sending email')
+            print('counter difference more than 10, sending email')
+            print('next iteration of the code to run after 10 min...')
             sendMail()
         counterLastIteration = counter
         time.sleep(sleeptime)
