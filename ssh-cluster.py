@@ -1,5 +1,5 @@
 '''
-This code in intended to SSH to the FTD every 10 min and check the counter seen in the output of cluster exec sh asp drop | i cluster-forward-error.
+This code in intended to SSH to the FTD every 10 min and check the counter seen in the output of cluster exec show asp drop | i cluster-forward-error.
 If the counter is seen to increase more than 10, then an email is sent to the admin to take corrective action
 
 '''
