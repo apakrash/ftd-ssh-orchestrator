@@ -1,0 +1,14 @@
+show cluster info
+show cluster info packet-distribution
+show cluster info conn-distribution
+show cluster info health
+cluster exec show conn count
+cluster exec show cpu
+cluster exec show processes cpu-hog
+cluster exec show memory
+cluster exec show perfmon
+cluster exec show asp drop 
+cluster exec show resource usage
+cluster exec show arp
+cluster exec show arp statistics
+cluster exec show route

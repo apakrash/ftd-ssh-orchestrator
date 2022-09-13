@@ -10,21 +10,22 @@ import logging
 import time
 import smtplib
 from pythonGmail import *
+from pprint import pprint
 
 #change the ip address and credentials accordingly
 my_device = {
-    "ip": "10.105.104.212",
+    "ip": "10.197.241.92",
     "username": "admin",
-    "password": "cisco"
+    "password": "Admin123"
 }
 
-sleeptime = 600 # in seconds
+sleeptime = 10 # in seconds
 
 device = ftd_connection(**my_device)
 
 # #  Enabling Logging
 logger = logging.getLogger("ftd_connector")
-handler = logging.FileHandler('app.log')
+handler = logging.FileHandler('HDC1-CS.log')
 formatter = logging.Formatter('%(asctime)s - %(threadName)s - %(name)s.%(funcName)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
@@ -34,30 +35,18 @@ logger.setLevel(logging.DEBUG)
 #output = device.send_command_clish("cluster exec show asp drop | include cluster-forward-error")
 #print(output)
 
+f = open("commands-to-monitor.txt", "r")
+commandList = f.readlines()
+pprint(commandList)
+
 firstTry = 1
 while(1):
     counter = 0
-    output = device.send_command_clish("cluster exec show asp drop | i cluster-forward-error")
-    outputLines = output.splitlines()
-    for line in outputLines:
-        if 'Cluster member failed to send data packet over CCL (cluster-forward-error)' in line:
-            counter = int(line.split('Cluster member failed to send data packet over CCL (cluster-forward-error)')[1].strip())
-            break
-    
-    if firstTry == 1:
-        counterLastIteration = counter
-        firstTry = 0
-        print('counter = ' + str(counter))
-        print('next iteration of the code to run after 10 min...')
-        time.sleep(sleeptime)
-    else:
-        print('counter = ' + str(counter))
-        print('counterLastIteration = ' + str(counterLastIteration))
-        print('next iteration of the code to run after 10 min...')
-        if counter - counterLastIteration > 10:
-            print('counter difference more than 10, sending email')
-            print('next iteration of the code to run after 10 min...')
-            sendMail()
-        counterLastIteration = counter
-        time.sleep(sleeptime)
+    #output = device.send_command_clish("show cluster info")
+    #output = device.send_command_clish("show cluster info conn-distribution")
+    for command in commandList:
+        output = device.send_command_clish(command)
+        print(output)
+        time.sleep(1)
+    time.sleep(sleeptime)
     print('--------------------------------------------')
