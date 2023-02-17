@@ -14,9 +14,9 @@ from pprint import pprint
 
 #change the ip address and credentials accordingly
 my_device = {
-    "ip": "10.197.225.191",
-    "username": "admin",
-    "password": "C!sco123"
+    "ip": "1.1.1.1",
+    "username": "username",
+    "password": "password"
 }
 
 sleeptime = 10 # in seconds
@@ -31,11 +31,9 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 logger.setLevel(logging.DEBUG)
 
-#output = device.send_command_clish("cluster exec  show  asp  drop | include  cluster-forward-error")
-#output = device.send_command_clish("cluster exec show asp drop | include cluster-forward-error")
-#print(output)
 
-f = open("commands-to-monitor-bob.txt", "r")
+#add all commands to monitor here
+f = open("commands-to-monitor-bob.txt", "r") 
 commandList = f.readlines()
 pprint(commandList)
 
