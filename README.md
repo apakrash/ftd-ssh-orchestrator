@@ -1,4 +1,6 @@
-This code is based on the repo: https://github.com/Viss/toolkit/blob/master/cisco-ssh.py
+This code is based on the repo: 
+https://github.com/Viss/toolkit/blob/master/cisco-ssh.py
+https://github.com/jbronikowski/ftd-connector
 
 # Requirement:
 - Python 3.x
